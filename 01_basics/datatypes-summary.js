@@ -46,3 +46,26 @@ console.log(typeof anotherId);             //used for knowing data type
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+/*************************************************************************/
+
+// stack memory(primitive)-copy of value , heap(non-primitive)-reference i.e change in orignsl value
+
+let myYoutubename = "riyarajdotcom"
+
+let anothername = "myYoutubename"
+anothername = "stealerx"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    emai: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne 
+userTwo.email = "riya@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

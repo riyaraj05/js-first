@@ -1,7 +1,7 @@
 "use strict"; // treats all js code as newer version
 
 // alert (3+3) //we are using node js not browser and it can be written in another for for 
-// codde redability should be high so use indentation
+// code redability should be high so use indentation
 let name = "riya" //string
 let age = 18        //number
 let isLoggedIn = false  //boolean

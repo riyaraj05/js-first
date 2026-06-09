@@ -12,8 +12,8 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9) ->push
+// myArr.shift() ->pop
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
@@ -24,7 +24,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log( newArr);
 
 
-// slice, splice
+// slice(doesn't modify orignal array), splice(modify orignal array)
 
 console.log("A ", myArr);
 
